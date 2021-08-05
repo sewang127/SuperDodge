@@ -17,14 +17,26 @@ class GameViewController: UIViewController {
         
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
+            
+            if let scene = SKScene(fileNamed: "GameStageOne") {
                 // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
+                scene.scaleMode = .resizeFill
                 
                 // Present the scene
                 view.presentScene(scene)
+                scene.backgroundColor = UIColor.white
             }
             
+            /*
+            if let scene = SKScene(fileNamed: "StoreScene") {
+                // Set the scale mode to scale to fit the window
+                scene.scaleMode = .resizeFill
+                
+                // Present the scene
+                view.presentScene(scene)
+                scene.backgroundColor = UIColor.white
+            }
+            */
             view.ignoresSiblingOrder = true
             
             view.showsFPS = true

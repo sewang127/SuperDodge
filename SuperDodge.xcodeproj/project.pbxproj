@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721966B21FAEB11A00BE2A39 /* MainMap.sks in Resources */ = {isa = PBXBuildFile; fileRef = 721966B11FAEB11A00BE2A39 /* MainMap.sks */; };
+		723BED361FB1A75800DBFCF6 /* GoldCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723BED351FB1A75800DBFCF6 /* GoldCoin.swift */; };
+		723BED381FB1AA4E00DBFCF6 /* GameStage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723BED371FB1AA4E00DBFCF6 /* GameStage.swift */; };
+		723BED3B1FB1B1DF00DBFCF6 /* PlayerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723BED3A1FB1B1DF00DBFCF6 /* PlayerData.swift */; };
 		729E81D31FAC1F2100294FDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729E81D21FAC1F2100294FDB /* AppDelegate.swift */; };
 		729E81D51FAC1F2100294FDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 729E81D41FAC1F2100294FDB /* GameScene.sks */; };
 		729E81D71FAC1F2100294FDB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 729E81D61FAC1F2100294FDB /* Actions.sks */; };
@@ -15,9 +19,24 @@
 		729E81DE1FAC1F2100294FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E81DC1FAC1F2100294FDB /* Main.storyboard */; };
 		729E81E01FAC1F2100294FDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729E81DF1FAC1F2100294FDB /* Assets.xcassets */; };
 		729E81E31FAC1F2100294FDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729E81E11FAC1F2100294FDB /* LaunchScreen.storyboard */; };
+		72A113AF1FAEB38F008BFC3A /* MainMapTileSet.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72A113AE1FAEB38F008BFC3A /* MainMapTileSet.sks */; };
+		72A113B31FAF0BCF008BFC3A /* LevelOneBoss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A113B21FAF0BCF008BFC3A /* LevelOneBoss.swift */; };
+		72A113B61FAF0F3F008BFC3A /* BulletObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A113B51FAF0F3F008BFC3A /* BulletObject.swift */; };
+		72A113B91FB05404008BFC3A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A113B81FB05404008BFC3A /* Player.swift */; };
+		72A113BC1FB05C4C008BFC3A /* GameStageOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A113BB1FB05C4C008BFC3A /* GameStageOne.swift */; };
+		72A113BF1FB05CD6008BFC3A /* GameStageOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72A113BE1FB05CD6008BFC3A /* GameStageOne.sks */; };
+		72A113C31FB073F3008BFC3A /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72A113C21FB073F3008BFC3A /* GameOverScene.sks */; };
+		72A113C51FB0740A008BFC3A /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A113C41FB0740A008BFC3A /* GameOverScene.swift */; };
+		72A113C71FB07842008BFC3A /* GameWonScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72A113C61FB07842008BFC3A /* GameWonScene.sks */; };
+		72CCB2921FB18C84003ADA17 /* StoreScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 72CCB2911FB18C84003ADA17 /* StoreScene.sks */; };
+		72CCB2941FB18CA0003ADA17 /* StoreScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CCB2931FB18CA0003ADA17 /* StoreScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721966B11FAEB11A00BE2A39 /* MainMap.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMap.sks; sourceTree = "<group>"; };
+		723BED351FB1A75800DBFCF6 /* GoldCoin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoldCoin.swift; sourceTree = "<group>"; };
+		723BED371FB1AA4E00DBFCF6 /* GameStage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStage.swift; sourceTree = "<group>"; };
+		723BED3A1FB1B1DF00DBFCF6 /* PlayerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerData.swift; sourceTree = "<group>"; };
 		729E81CF1FAC1F2100294FDB /* SuperDodge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperDodge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729E81D21FAC1F2100294FDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		729E81D41FAC1F2100294FDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +47,17 @@
 		729E81DF1FAC1F2100294FDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729E81E21FAC1F2100294FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		729E81E41FAC1F2100294FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72A113AE1FAEB38F008BFC3A /* MainMapTileSet.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMapTileSet.sks; sourceTree = "<group>"; };
+		72A113B21FAF0BCF008BFC3A /* LevelOneBoss.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOneBoss.swift; sourceTree = "<group>"; };
+		72A113B51FAF0F3F008BFC3A /* BulletObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulletObject.swift; sourceTree = "<group>"; };
+		72A113B81FB05404008BFC3A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		72A113BB1FB05C4C008BFC3A /* GameStageOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameStageOne.swift; sourceTree = "<group>"; };
+		72A113BE1FB05CD6008BFC3A /* GameStageOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameStageOne.sks; sourceTree = "<group>"; };
+		72A113C21FB073F3008BFC3A /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		72A113C41FB0740A008BFC3A /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		72A113C61FB07842008BFC3A /* GameWonScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameWonScene.sks; sourceTree = "<group>"; };
+		72CCB2911FB18C84003ADA17 /* StoreScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StoreScene.sks; sourceTree = "<group>"; };
+		72CCB2931FB18CA0003ADA17 /* StoreScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		723BED331FB1A74600DBFCF6 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				723BED341FB1A74D00DBFCF6 /* GoldCoin */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		723BED341FB1A74D00DBFCF6 /* GoldCoin */ = {
+			isa = PBXGroup;
+			children = (
+				723BED351FB1A75800DBFCF6 /* GoldCoin.swift */,
+			);
+			name = GoldCoin;
+			sourceTree = "<group>";
+		};
+		723BED391FB1B1D400DBFCF6 /* PlayerData */ = {
+			isa = PBXGroup;
+			children = (
+				723BED3A1FB1B1DF00DBFCF6 /* PlayerData.swift */,
+			);
+			name = PlayerData;
+			sourceTree = "<group>";
+		};
 		729E81C61FAC1F2100294FDB = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +114,12 @@
 		729E81D11FAC1F2100294FDB /* SuperDodge */ = {
 			isa = PBXGroup;
 			children = (
+				723BED331FB1A74600DBFCF6 /* Object */,
+				72CCB28F1FB18C5B003ADA17 /* Scene */,
+				72A113BA1FB05C28008BFC3A /* GameSystem */,
+				72A113B71FB053DF008BFC3A /* Player */,
+				72A113B41FAF0F33008BFC3A /* Bullet */,
+				72A113B01FAF0BA4008BFC3A /* Monster */,
 				729E81D21FAC1F2100294FDB /* AppDelegate.swift */,
 				729E81D41FAC1F2100294FDB /* GameScene.sks */,
 				729E81D61FAC1F2100294FDB /* Actions.sks */,
@@ -69,8 +129,105 @@
 				729E81DF1FAC1F2100294FDB /* Assets.xcassets */,
 				729E81E11FAC1F2100294FDB /* LaunchScreen.storyboard */,
 				729E81E41FAC1F2100294FDB /* Info.plist */,
+				721966B11FAEB11A00BE2A39 /* MainMap.sks */,
+				72A113AE1FAEB38F008BFC3A /* MainMapTileSet.sks */,
 			);
 			path = SuperDodge;
+			sourceTree = "<group>";
+		};
+		72A113B01FAF0BA4008BFC3A /* Monster */ = {
+			isa = PBXGroup;
+			children = (
+				72A113B11FAF0BAD008BFC3A /* Boss */,
+			);
+			name = Monster;
+			sourceTree = "<group>";
+		};
+		72A113B11FAF0BAD008BFC3A /* Boss */ = {
+			isa = PBXGroup;
+			children = (
+				72A113B21FAF0BCF008BFC3A /* LevelOneBoss.swift */,
+			);
+			name = Boss;
+			sourceTree = "<group>";
+		};
+		72A113B41FAF0F33008BFC3A /* Bullet */ = {
+			isa = PBXGroup;
+			children = (
+				72A113B51FAF0F3F008BFC3A /* BulletObject.swift */,
+			);
+			name = Bullet;
+			sourceTree = "<group>";
+		};
+		72A113B71FB053DF008BFC3A /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				72A113B81FB05404008BFC3A /* Player.swift */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+		72A113BA1FB05C28008BFC3A /* GameSystem */ = {
+			isa = PBXGroup;
+			children = (
+				723BED391FB1B1D400DBFCF6 /* PlayerData */,
+			);
+			name = GameSystem;
+			sourceTree = "<group>";
+		};
+		72A113BD1FB05CAE008BFC3A /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				723BED371FB1AA4E00DBFCF6 /* GameStage.swift */,
+				72A113C01FB05D37008BFC3A /* StageOne */,
+			);
+			name = Stages;
+			sourceTree = "<group>";
+		};
+		72A113C01FB05D37008BFC3A /* StageOne */ = {
+			isa = PBXGroup;
+			children = (
+				72A113BB1FB05C4C008BFC3A /* GameStageOne.swift */,
+				72A113BE1FB05CD6008BFC3A /* GameStageOne.sks */,
+			);
+			name = StageOne;
+			sourceTree = "<group>";
+		};
+		72A113C11FB073D6008BFC3A /* GameOverScene */ = {
+			isa = PBXGroup;
+			children = (
+				72A113C21FB073F3008BFC3A /* GameOverScene.sks */,
+				72A113C41FB0740A008BFC3A /* GameOverScene.swift */,
+				72A113C61FB07842008BFC3A /* GameWonScene.sks */,
+			);
+			name = GameOverScene;
+			sourceTree = "<group>";
+		};
+		72CCB28F1FB18C5B003ADA17 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				72CCB2951FB197DA003ADA17 /* CharacterSelection */,
+				72CCB2901FB18C72003ADA17 /* Store */,
+				72A113BD1FB05CAE008BFC3A /* Stages */,
+				72A113C11FB073D6008BFC3A /* GameOverScene */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		72CCB2901FB18C72003ADA17 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				72CCB2911FB18C84003ADA17 /* StoreScene.sks */,
+				72CCB2931FB18CA0003ADA17 /* StoreScene.swift */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		72CCB2951FB197DA003ADA17 /* CharacterSelection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CharacterSelection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +262,7 @@
 				TargetAttributes = {
 					729E81CE1FAC1F2100294FDB = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = KB4UAZKX2F;
+						DevelopmentTeam = CF4964UHHB;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -115,6 +272,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -134,10 +292,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				729E81DE1FAC1F2100294FDB /* Main.storyboard in Resources */,
+				72A113BF1FB05CD6008BFC3A /* GameStageOne.sks in Resources */,
 				729E81D51FAC1F2100294FDB /* GameScene.sks in Resources */,
 				729E81E01FAC1F2100294FDB /* Assets.xcassets in Resources */,
 				729E81E31FAC1F2100294FDB /* LaunchScreen.storyboard in Resources */,
+				72A113AF1FAEB38F008BFC3A /* MainMapTileSet.sks in Resources */,
 				729E81D71FAC1F2100294FDB /* Actions.sks in Resources */,
+				72A113C71FB07842008BFC3A /* GameWonScene.sks in Resources */,
+				72A113C31FB073F3008BFC3A /* GameOverScene.sks in Resources */,
+				72CCB2921FB18C84003ADA17 /* StoreScene.sks in Resources */,
+				721966B21FAEB11A00BE2A39 /* MainMap.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +314,16 @@
 			files = (
 				729E81D91FAC1F2100294FDB /* GameScene.swift in Sources */,
 				729E81DB1FAC1F2100294FDB /* GameViewController.swift in Sources */,
+				72CCB2941FB18CA0003ADA17 /* StoreScene.swift in Sources */,
+				72A113C51FB0740A008BFC3A /* GameOverScene.swift in Sources */,
+				723BED361FB1A75800DBFCF6 /* GoldCoin.swift in Sources */,
+				72A113B61FAF0F3F008BFC3A /* BulletObject.swift in Sources */,
+				723BED3B1FB1B1DF00DBFCF6 /* PlayerData.swift in Sources */,
 				729E81D31FAC1F2100294FDB /* AppDelegate.swift in Sources */,
+				723BED381FB1AA4E00DBFCF6 /* GameStage.swift in Sources */,
+				72A113B91FB05404008BFC3A /* Player.swift in Sources */,
+				72A113B31FAF0BCF008BFC3A /* LevelOneBoss.swift in Sources */,
+				72A113BC1FB05C4C008BFC3A /* GameStageOne.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +448,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KB4UAZKX2F;
+				DEVELOPMENT_TEAM = CF4964UHHB;
 				INFOPLIST_FILE = SuperDodge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyMac.SuperDodge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -288,12 +461,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = KB4UAZKX2F;
+				DEVELOPMENT_TEAM = CF4964UHHB;
 				INFOPLIST_FILE = SuperDodge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MyMac.SuperDodge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -316,6 +489,7 @@
 				729E81E91FAC1F2100294FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
